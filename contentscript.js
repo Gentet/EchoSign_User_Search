@@ -25,6 +25,7 @@ if(sub  != -1){
     promptMessage = promptMessage.trim();
 }
 
+
 // Use window.location to navigate to the correct URL, as you can see I have used the + sybol to append the relevant text
 window.location = "https://echosign.com/account/viewUsers?searchQuery=" + promptMessage + "&hideInactive=" + inactive;
 
